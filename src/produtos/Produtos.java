@@ -5,10 +5,7 @@
  */
 package produtos;
 
-/**
- *
- * @author hugov
- */
+
 public class Produtos {
     
     public static String LISTAR = "SELECT * FROM produtos ORDER BY nome_pro";

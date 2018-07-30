@@ -5,10 +5,7 @@
  */
 package principal;
 
-/**
- *
- * @author hugov
- */
+
 public class GerarNumero {
     private int dado;
     private int cont=1;

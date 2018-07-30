@@ -5,10 +5,7 @@
  */
 package sistema;
 
-/**
- *
- * @author hugov
- */
+
 public class Sistema {
 
     /**

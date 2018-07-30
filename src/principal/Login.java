@@ -13,10 +13,7 @@ import javax.swing.JOptionPane;
 
 
 
-/**
- *
- * @author hugov
- */
+
 public class Login extends javax.swing.JFrame {
     
     SplashScreen inicio;

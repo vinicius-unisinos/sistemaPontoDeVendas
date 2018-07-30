@@ -24,10 +24,7 @@ import usuarios.FrmUsuarios;
 import vendas.FrmCaixa;
 import vendas.FrmVendas;
 
-/**
- *
- * @author hugov
- */
+
 public class MenuPrincipal extends javax.swing.JFrame {
     
     
@@ -158,7 +155,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
         jButton1.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/principal/info.png"))); // NOI18N
-        jButton1.setText("INFORMAÇÕES");
+        jButton1.setText("RELATÓRIO DE CLIENTES");
         jButton1.setBorder(null);
         jButton1.setContentAreaFilled(false);
         jButton1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -171,7 +168,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        painelCabecalho.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 0, -1, 120));
+        painelCabecalho.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 0, 160, 120));
 
         btnUsuarios.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         btnUsuarios.setForeground(new java.awt.Color(255, 255, 255));

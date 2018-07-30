@@ -31,6 +31,7 @@ public class TelaRelatorios extends javax.swing.JInternalFrame {
         nomeCliente = new javax.swing.JTextField();
         jButton1 = new javax.swing.JButton();
 
+        setClosable(true);
         setTitle("DIGITE O NOME DO CLIENTE");
         setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         setMaximumSize(new java.awt.Dimension(500, 500));

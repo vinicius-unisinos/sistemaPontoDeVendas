@@ -16,10 +16,7 @@ import javax.swing.table.DefaultTableModel;
 import principal.Conectar;
 import principal.GerarCodigos;
 
-/**
- *
- * @author hugov
- */
+
 public class ProdutosSql {
 
     static Conectar cc = new Conectar();

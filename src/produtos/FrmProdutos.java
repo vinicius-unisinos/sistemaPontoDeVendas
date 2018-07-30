@@ -16,9 +16,7 @@ import javax.swing.event.ListSelectionListener;
 import principal.GerarCodigos;
 public class FrmProdutos extends javax.swing.JInternalFrame {
 
-    /**
-     * Creates new form FrmProdutos
-     */
+
     public FrmProdutos() {
         initComponents();
         tabela.getTableHeader().setDefaultRenderer(new principal.EstiloTabelaHeader());

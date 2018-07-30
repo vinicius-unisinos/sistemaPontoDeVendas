@@ -21,10 +21,7 @@ import usuarios.FrmUsuarios;
 import vendas.FrmCaixa;
 import vendas.FrmVendas;
 
-/**
- *
- * @author hugov
- */
+
 public class MenuPrincipalP extends javax.swing.JFrame {
     
     

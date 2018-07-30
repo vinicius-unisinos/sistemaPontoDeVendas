@@ -8,10 +8,7 @@ package principal;
 import javax.swing.JLabel;
 import javax.swing.JProgressBar;
 
-/**
- *
- * @author hugov
- */
+
 public class SplashScreen extends javax.swing.JFrame {
     
     SplashScreen spl = this;
@@ -111,13 +108,13 @@ public class SplashScreen extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        getContentPane().add(painelProgress, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 370, 310, 60));
+        getContentPane().add(painelProgress, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 500, 310, 60));
 
         painelGeral.setLayout(new java.awt.GridLayout(1, 0));
         getContentPane().add(painelGeral, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 150, -1, -1));
 
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/principal/splash1.jpg"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/principal/SplashTeste.jpg"))); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
         pack();

@@ -10,10 +10,7 @@ import java.awt.Image;
 import javax.swing.ImageIcon;
 import javax.swing.JDesktopPane;
 
-/**
- *
- * @author hugov
- */
+
 public class Carregador extends JDesktopPane{
     Image img = new ImageIcon(getClass().getResource("/imagens/principal/Hack-de-Vendas.jpg")).getImage();
     @Override

@@ -15,10 +15,7 @@ import javax.swing.ListSelectionModel;
 import javax.swing.table.DefaultTableModel;
 import usuarios.UsuariosSql;
 
-/**
- *
- * @author hugov
- */
+
 public class FrmListaProd extends javax.swing.JInternalFrame {
 
     /**
